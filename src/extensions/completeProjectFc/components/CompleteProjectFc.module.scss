@@ -1,0 +1,113 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.completeProjectFc {
+  max-width: 1024px;
+	margin: auto;
+
+  .title {
+    margin-left: 15px;
+  }
+
+  .title_description {
+    max-width: 630px;
+    border-bottom: 3px solid;
+    height: 35px;
+    margin-left: 15px;
+  }
+
+  .componentStyle {
+    max-width: 300px;
+    min-width: 200px;
+    width: 300px;
+  }
+
+  .peoplePickerIcon {
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+
+  .reportContainerZone {
+    height: 97px;
+    max-width: 300px;
+    border: 1px solid;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0px;
+
+    .reportContentZone {
+      text-align: left;
+      padding: 5px 15px;
+      max-width: 300px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .filePickerButtonUpload {
+    background-color: white !important;
+    border: 1px solid #03787c;
+    color: #03787c;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+
+  .filePickerDescription {
+    margin-Bottom: 10px;
+    font-Size: 12px;
+  }
+
+  .filePickerFormat{
+    margin: 0 0 0 10px;
+    font-Size: 12px;
+  }
+
+  .filePickerButtonDelete {
+    background-color: #03787c !important;
+    border: 2px solid #03787c;
+    color: white;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottomSection {
+    margin-top: 50px;
+  }
+
+  .obligatoryField {
+    margin-left: 245px;
+    align-self: center;
+  }
+
+  //Error handling styles
+  .errorStyle {
+    color: red;
+  }
+}
+
+.popupDefaultButton {
+  width: 100px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #008AC2;
+  color: #003478;
+  margin-top: 35px;
+}
+
+.popupPrimaryButton {
+  width: 100px; 
+  height: 36px; 
+  border-radius: 4px; 
+  margin: 35px 0 0 16px;
+}

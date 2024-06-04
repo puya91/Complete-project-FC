@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://4l8x4l.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "ee7fbb7e-6157-42c2-a749-c4e3c66a4131",
+        "PageType": 8,
+        "RootFolder": "/Lists/MyList",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "completeProjectFc_NewForm": {
+      "pageUrl": "https://4l8x4l.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "ee7fbb7e-6157-42c2-a749-c4e3c66a4131",
+        "PageType": 8,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "completeProjectFc_EditForm": {
+      "pageUrl": "https://4l8x4l.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "ee7fbb7e-6157-42c2-a749-c4e3c66a4131",
+        "PageType": 6,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "completeProjectFc_ViewForm": {
+      "pageUrl": "https://4l8x4l.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "ee7fbb7e-6157-42c2-a749-c4e3c66a4131",
+        "PageType": 4,
+        "RootFolder": "/Lists/Risk%20event%20requests",
+        "ID": 259,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}

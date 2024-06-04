@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "complete-project-fc-client-side-solution",
+    "id": "557510ab-41ed-4ebd-87ad-35cafd33ef72",
+    "version": "1.0.0.5",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "complete-project-fc description"
+      },
+      "longDescription": {
+        "default": "complete-project-fc description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "complete-project-fc Feature",
+        "description": "The feature that activates elements of the complete-project-fc solution.",
+        "id": "d05de34e-4921-4d18-ae18-3fde5b5e3ebb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/complete-project-fc.sppkg"
+  }
+}
